@@ -1,1 +1,0 @@
-(self.webpackChunkwebpack_template=self.webpackChunkwebpack_template||[]).push([[442],{442:(e,t,c)=>{"use strict";c.r(t),c.d(t,{createDiv:()=>n});const n=e=>{const t=document.createElement("div");return t.innerText=e,t}}}]);

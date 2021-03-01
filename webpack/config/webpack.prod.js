@@ -17,7 +17,7 @@ export default () => {
       filename: "[name].bundle.js",
       path: BUILD_DIR,
     },
-    plugins: [new BundleAnalyzerPlugin()],
+    plugins: [new BundleAnalyzerPlugin({ analyzerMode: "disabled" })],
     optimization: {
       minimize: true,
       splitChunks: {
