@@ -20,7 +20,7 @@ export default () => {
     },
     modules.setHtml(),
     modules.loadStyles(),
-    modules.setBabel(),
-    modules.transpileTs()
+    modules.setBabel()
+    // modules.transpileTs()
   );
 };

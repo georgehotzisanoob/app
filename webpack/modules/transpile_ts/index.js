@@ -3,7 +3,7 @@ export const transpileTs = () => {
     module: {
       rules: [
         {
-          test: /\.ts?x$/,
+          test: /\.tsx?$/,
           use: "ts-loader",
           exclude: /(node_modules|bower_components)/,
         },
