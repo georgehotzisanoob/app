@@ -3,7 +3,7 @@ import "./react";
 
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", () => {
+btn?.addEventListener("click", () => {
   import("./components").then(({ createDiv }) => {
     document.body.append(createDiv("code splitting"));
   });

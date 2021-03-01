@@ -14,9 +14,13 @@ export default () => {
       entry: {
         main: [SRC_DIR],
       },
+      resolve: {
+        extensions: [".js", ".ts", ".tsx", ".jsx"],
+      },
     },
     modules.setHtml(),
     modules.loadStyles(),
-    modules.setBabel()
+    modules.setBabel(),
+    modules.transpileTs()
   );
 };
