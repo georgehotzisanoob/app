@@ -1,4 +1,6 @@
 import "./styles/index.scss";
+// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/extensions
 import "./react";
 
 const btn = document.getElementById("btn");
