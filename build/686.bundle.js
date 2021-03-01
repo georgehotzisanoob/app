@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_template=self.webpackChunkwebpack_template||[]).push([[686],{686:(e,t,n)=>{"use strict";n.r(t),n.d(t,{createDiv:()=>a});var a=function(e){!function(e,t){if(void 0!==e)throw new TypeError("Cannot instantiate an arrow function")}(this);var t=document.createElement("div");return t.innerText=e,t}.bind(void 0)}}]);
